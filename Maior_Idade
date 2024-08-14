@@ -1,0 +1,27 @@
+Exercicio: Maior Idade
+
+Escreva un algoritimo que saiba "se" a idade digitada é maior ou menor que 18 anos.
+Caso seja maior que 18, escreva "Ok, conteúdo liberad por ser maior de idade"
+Senão, escrever "Voce ainda é de menor, aguarde mais (x) anos para acessar o conteúdo.
+
+Visualg
+Algoritmo "MaiorIdade"
+
+Var
+
+   idade:inteiro
+
+Inicio
+
+      escreval("Escreva sua idade")
+      leia(idade)
+      
+      se (idade >= 18) entao
+         escreval("Ok, conteúdo liberad por ser maior de idade.")
+         
+      senão
+           escreval("Voce ainda é de menor, aguarde mais ", idade-18+idade," anos para acessar o conteúdo")
+
+           fimse
+
+Fimalgoritmo
